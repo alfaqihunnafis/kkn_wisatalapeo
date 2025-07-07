@@ -56,8 +56,9 @@
                             <i class="fas fa-ship fa-stack-1x fa-inverse"></i>
                         </span>
                         <h4 class="my-3">Wisata Bahari</h4>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <a href="https://maps.app.goo.gl/UaUHbiBLMuapRQbS9" class="btn btn-primary mt-auto">Jelajahi Peta</a>
+                        <p class="text-muted">Jelajahi keindahan laut dan pantai di Desa Lapeo.</p>
+                        <!-- Tombol "Lebih Lanjut" yang membuka modal -->
+                        <a class="btn btn-primary mt-auto" data-toggle="modal" href="#berandaModal1">Lebih Lanjut</a>
                     </div>
                     <div class="col-md-3 mb-5">
                         <span class="fa-stack fa-6x">
@@ -65,8 +66,8 @@
                             <i class="fas fa-mosque fa-stack-1x fa-inverse"></i>
                         </span>
                         <h4 class="my-3">Wisata Religi</h4>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <a href="https://maps.app.goo.gl/bF76jNwKRJhctN2y7" class="btn btn-primary mt-auto">Jelajahi Peta</a>
+                        <p class="text-muted">Kunjungi tempat bersejarah dan religius yang menenangkan jiwa.</p>
+                        <a class="btn btn-primary mt-auto" data-toggle="modal" href="#berandaModal2">Lebih Lanjut</a>
                     </div>
                     <div class="col-md-3 mb-5">
                         <span class="fa-stack fa-6x">
@@ -74,8 +75,8 @@
                             <i class="fas fa-utensils fa-stack-1x fa-inverse"></i>
                         </span>
                         <h4 class="my-3">Wisata Kuliner</h4>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <a href="coming/soon.html" class="btn btn-primary mt-auto">Coming Soon</a>
+                        <p class="text-muted">Cicipi aneka hidangan khas yang lezat dan menggugah selera.</p>
+                        <a href="#!" class="btn btn-primary mt-auto">Coming Soon</a>
                     </div>
                     <div class="col-md-3 mb-5">
                         <span class="fa-stack fa-6x">
@@ -83,8 +84,8 @@
                             <i class="fas fa-palette fa-stack-1x fa-inverse"></i>
                         </span>
                         <h4 class="my-3">Karya Seni Budaya</h4>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <a href="coming/soon.html" class="btn btn-primary mt-auto">Coming Soon</a>
+                        <p class="text-muted">Saksikan kekayaan seni dan budaya lokal yang unik.</p>
+                        <a href="#!" class="btn btn-primary mt-auto">Coming Soon</a>
                     </div>
                 </div>
             </div>
@@ -115,24 +116,6 @@
                             <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
                         </div>
                     </li>
-            <!--       <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/goor9.jpg" alt="" /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4 class="subheading">GOR Trisanja Slawi</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">GOR Trisanja merupakan salah satu stadion di Desa Lapeo yang terletak di Jalan Ir. H Juanda, Pakembaran, Kecamatan Slawi, Desa Lapeo, Jawa Tengah. Stadion ini dibangun pada akhir 1980an. Nama Tri Sanja ini diambil dari etos budaya masyarakat di Desa Lapeo yang mana memuat tiga landasan diantaranya orientasi masa depan yang lebih baik, peningkatan iman dan takwa serta percaya pada diri sendiri dan kemampuan sendiri. </p></div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/cb.jpg" alt="" /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4 class="subheading">Objek Wisata Waduk Cacaban</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">Objek Wisata Waduk Cacaban merupakan salah satu destinasi wisata di Desa Lapeo yang terletak di Desa Penujah, Kecamatan Kedungbanteng, Desa Lapeo, Jawa Tengah. Objek wisata ini memiliki daya tarik wisata tersendiri, dimana salah satu pesona keindahannya berupa perbukitan savana atau yang sering disebut dengan Bukit Teletubbies yang mengelilingi waduk tersebut. </p></div>
-                        </div>
-                    </li>    -->
                 </ul>
             </div>
         </section>
@@ -342,6 +325,72 @@
                 </div>
             </div>
         </footer>
+        
+        <!-- Beranda Modals -->
+        <!-- Modal 1 (Wisata Bahari) -->
+        <div class="portfolio-modal modal fade" id="berandaModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">Pantai Ba'batoa</h2>
+                                    <p class="item-intro text-muted">Wisata Bahari Desa Lapeo</p>
+                                    <img class="img-fluid d-block mx-auto rounded" src="assets/bahariwide.jpg" alt="Gambar Pantai Ba'batoa" />
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                    
+                                    <!-- Google Map Embed -->
+                                    <div class="embed-responsive embed-responsive-16by9 mb-4">
+                                        <iframe class="embed-responsive-item rounded" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.399485849374!2d119.13410769999999!3d-3.4945899999999934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d94950026a0119b%3A0xcda4e5ebb6f731e4!2sPantai%20Babatoa%20Lapeo!5e0!3m2!1sen!2sid!4v1751861925918!5m2!1sen!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    </div>
+
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Modal 2 (Wisata Religi) -->
+        <div class="portfolio-modal modal fade" id="berandaModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">Masjid Imam Lapeo</h2>
+                                    <p class="item-intro text-muted">Wisata Religi Desa Lapeo</p>
+                                    <img class="img-fluid d-block mx-auto rounded" src="assets/religiwide.jpeg" alt="Gambar Masjid Imam Lapeo" />
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                    
+                                    <!-- Google Map Embed -->
+                                    <div class="embed-responsive embed-responsive-16by9 mb-4">
+                                        <iframe class="embed-responsive-item rounded" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6969.950807713189!2d119.12813209090095!3d-3.4877029452535324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d949403bb9fa76d%3A0x7c4d446cdc02f970!2sImam%20Lapeo%20Mosque!5e0!3m2!1sen!2sid!4v1751861770073!5m2!1sen!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    </div>
+
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- Portfolio Modals-->
         <!-- Modal 1-->
         <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
